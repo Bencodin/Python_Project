@@ -1,34 +1,44 @@
-Scapy Port Scanner
-Introduction
-Ce script Python utilise Scapy pour scanner les ports TCP/UDP d'une plage d'adresses IP spécifiée. Il est capable de réaliser des scans SYN et UDP, sauvegardant les résultats dans une base de données SQLite.
+# Scapy Port Scanner
+## _Le dernier éditeur de Markdown pour le scan de ports_
 
-Dépendances
-Python 3
-Scapy
-SQLite3
-Installation et Configuration
-Assurez-vous d'avoir Python 3 installé. Installez Scapy en utilisant pip :
 
-bash
-Copy code
+
+Scapy Port Scanner est un outil de scan de ports TCP/UDP basé sur Scapy, avec stockage des résultats dans SQLite.
+
+- Scan des plages IP spécifiées
+- Supporte les scans SYN et UDP
+- ✨Magique ✨
+
+## Caractéristiques
+
+- Scanne des plages d'adresses IP et des ports spécifiés
+- Enregistre les résultats dans une base de données SQLite
+- Facile à utiliser et à intégrer dans d'autres projets Python
+
+Le scan de ports est une pratique courante dans le domaine de la sécurité réseau et de l'administration système. Ce script rend ces tâches plus accessibles et automatisées.
+
+## Tech
+
+Ce script utilise plusieurs projets open source pour fonctionner correctement :
+
+- [Python 3](https://www.python.org/) - pour le scripting !
+- [Scapy](https://scapy.net/) - puissant outil de manipulation de paquets
+- [SQLite3](https://www.sqlite.org/index.html) - pour la gestion de la base de données
+
+Et bien sûr, Scapy Port Scanner lui-même est open source 
+## Installation
+
+Assurez-vous d'avoir Python 3 et Scapy installés.
+
+```sh
 pip install scapy
-Utilisation
+```
+
+
+## Utilisation
 Pour lancer le scan, utilisez la commande suivante :
 
-bash
-Copy code
-python3 script.py -r <IP_RANGE> -p <PORTS> -s <SCAN_TYPE>
-IP_RANGE : La plage d'IP à scanner (ex. 192.168.1.0/24).
-PORTS : Les ports à scanner (ex. 80-443).
-SCAN_TYPE : Type de scan ('sS' pour SYN, 'sU' pour UDP).
-Architecture du Code
-Le script est organisé en plusieurs classes et fonctions :
+```sh
+python3 scanner.py -r <IP_RANGE> -p <PORTS> -s <SCAN_TYPE>
+```
 
-class Scapy: Gère les scans et les opérations de base de données.
-fetch_scan_results: Récupère les résultats de la base de données.
-show_scan_results: Affiche les résultats du scan.
-Illustrations
-(Ici, vous pouvez inclure des schémas ou des captures d'écran du script en action)
-
-Résultats et Output
-Les résultats des scans sont affichés dans le terminal et sauvegardés dans scanner.db.
