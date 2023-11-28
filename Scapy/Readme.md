@@ -1,7 +1,4 @@
 # Scapy Port Scanner
-## _Le dernier éditeur de Markdown pour le scan de ports_
-
-
 
 Scapy Port Scanner est un outil de scan de ports TCP/UDP basé sur Scapy, avec stockage des résultats dans SQLite.
 
