@@ -39,3 +39,11 @@ Pour lancer le scan, utilisez la commande suivante :
 python3 scanner.py -r <IP_RANGE> -p <PORTS> -s <SCAN_TYPE>
 ```
 
+##Disclaimer
+
+Ce script est fourni à des fins éducatives et de recherche uniquement. L'utilisation de ce script pour scanner des réseaux ou des systèmes sans autorisation préalable est illégale et contraire à l'éthique. L'auteur de ce script n'assume aucune responsabilité pour toute utilisation abusive ou dommages causés par cet outil.
+
+Il est de la responsabilité de l'utilisateur de respecter toutes les lois locales, étatiques, nationales et internationales applicables dans l'utilisation de cet outil. L'utilisation responsable et éthique de cet outil est fortement encouragée.
+
+En utilisant ce script, vous acceptez de l'utiliser de manière légale et éthique et vous vous engagez à ne pas l'utiliser pour des activités illégales ou malveillantes.
+
