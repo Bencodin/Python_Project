@@ -1,13 +1,13 @@
 version: "3.8"
 services:
   PRANK:
-    image: elebas/prank:1.0
+    image: 
     environment:
       exposed: "21,25,80,3306,3389"
       host_name: toto
-      from_email: noreply.security@vivescia.com
-      to_email: alert.honeypot@vvs-dssi.opsgenie.net
-      smtp_addr: smtp-group.vivescia.com
+      from_email: 
+      to_email: 
+      smtp_addr: 
       smtp_port: 25
     volumes:
       - /etc/hostname:/opt/PRANK/hostname
