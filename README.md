@@ -4,10 +4,9 @@
 Bienvenue dans mon répertoire principal de projets. Ici, vous trouverez une variété de projets sur lesquels je travaille. Utilisez les liens ci-dessous pour naviguer vers les projets spécifiques.
 
 1. [Scapy Port Scanner](/Scapy/) - Outil de scan de ports réseau basé sur Scapy.
-2. [Screener](/Screener) - Outil de screen de domaine
-3. [honeypot](/honeypot/) - Projet de déploiement d'honeypot
-4. [Documentation Générale](#) - Informations générales et documentation sur l'utilisation et la contribution à ces projets.
-5. [Contact et Collaboration](#) - Détails sur comment me contacter ou collaborer sur ces projets.
+2. [Screener](/Screener) - Outil de screen de domaine.
+3. [honeypot](/honeypot/) - Projet de déploiement d'honeypot.
+4. [Contact et Collaboration](#me-contacter) - Détails sur comment me contacter ou collaborer sur ces projets.
 
 ---
 
@@ -29,5 +28,15 @@ Je suis enthousiaste à l'idée de continuer à apprendre, à créer et à colla
 
 *Note: Ce répertoire est en constante évolution, avec des mises à jour et de nouveaux projets ajoutés régulièrement.*
 
+---
 
+## Me Contacter
+
+Vous pouvez me retrouver sur LinkedIn pour des questions, des suggestions ou des opportunités de collaboration. Cliquez sur l'icône ci-dessous pour visiter mon profil.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Benjamin%20Chazal-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/benjamin-chazal/)
+
+---
+
+Merci de votre visite et de votre intérêt pour mes projets !
 
