@@ -1,7 +1,4 @@
 # ⚡ Répertoire Principal de Mes Projets ⚡
-
-![Hacker](https://img.icons8.com/ios-filled/50/00FF00/hacker.png) 
-
 ## 💻 Sommaire des Projets
 Bienvenue dans mon répertoire principal de projets. Ici, vous trouverez une variété de projets sur lesquels je travaille. Utilisez les liens ci-dessous pour naviguer vers les projets spécifiques.
 
