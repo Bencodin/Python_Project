@@ -1,5 +1,5 @@
 # Prise de Capture d'Écran de Sites Web
-
+[Switch to English](README_EN.md)
 Ce script Python prend des captures d'écran d'une liste de sites web et les enregistre dans des répertoires organisés. Le script maintient également un historique des captures d'écran prises pour déterminer si un site web a été mis à jour.
 
 ## Exigences
